@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./styles/styles.css";
+//import Header element
+import Header from "./components/Header";
+//import styles scss
+import "./styles/styles.scss";
 
-const jsx = <p> My name is simon </p>;
-
-console.log("my name is Simon bob Marqvard Jensen");
-
-ReactDOM.render(jsx, document.getElementById("app"));
+ReactDOM.render(<Header />, document.getElementById("app"));
